@@ -1,0 +1,146 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 1 1 auto;
+}
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*--------------------*/
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('./assets/fonts/Alegreya-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('./assets/fonts/Nunito-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ledger';
+    src: url('./assets/fonts/Ledger-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.cursor{
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.name-section {
+    font-family: Alegreya, serif;
+    font-size: 26px;
+    color: #062A46;
+    line-height: 120%;
+  position: relative;
+    margin-bottom: 20px;
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right,
+        rgba(40, 132, 173, 0.55) 6%,
+        rgba(77, 192, 219, 0.55) 13%,
+        rgba(22, 144, 175, 0.55) 25%,
+        rgba(22, 144, 175, 0.55) 38%,
+        rgba(40, 174, 184, 0.55) 50%,
+        rgba(23, 140, 146, 0.55) 63%,
+        rgba(23, 140, 146, 0.55) 75%,
+        rgba(112, 218, 213, 0.55) 88%,
+        rgba(71, 249, 238, 0.55) 100%
+        ), url("./assets/img/background1.jpg");
+    }
+}
+
