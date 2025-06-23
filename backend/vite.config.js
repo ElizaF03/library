@@ -10,4 +10,12 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    server: {
+        proxy: {
+            '/app': 'http://localhost',  // Прокси для работы с Laravel
+        }
+    },
+    build: {
+        outDir: 'public/build',
+    }
 });

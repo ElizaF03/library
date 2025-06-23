@@ -1,0 +1,1 @@
+sudo nano docker/conf/php/xdebug.ini
