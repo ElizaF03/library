@@ -6,7 +6,7 @@
   <div class="author-body__container container">
     <div class="author-body__column">
       <div class="author-body__img">
-        <img src="../assets/img/authors/rowling.jpg" alt="">
+        <img src="../../public/authors/rowling.jpg" alt="">
       </div>
     </div>
     <div class="author-body__column">
@@ -48,6 +48,7 @@
           обездоленным людям, остро нуждающимся в финансовой и моральной поддержке.
         </div>
       </div>
+      <a href="/book">book</a>
     </div>
   </div>
 </template>
@@ -56,7 +57,6 @@
 .author-body{
 &__container{
   margin-top: 30px;
-  display: flex;
   align-items: start;
   gap: 30px;
 }

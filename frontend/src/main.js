@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
+import  '@/scss/header.scss'
 import './style.css'
+
 
 
 import BookComponents from './Book.vue'

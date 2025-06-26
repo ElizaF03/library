@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1275a5f6-1f3d-4ac8-b179-af998e32f668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docker/daemon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/BooksByAuthor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/scss/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/conf/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/conf/nginx/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/img/authors/rowling.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/authors/rowling.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/img/events/easter.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/events/easter.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/img/events/fest.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/events/fest.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/img/events/parfume.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/events/parfume.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/img/events/race.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/events/race.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AuthorBody.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AuthorBody.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +177,9 @@
     "Docker.frontend/Dockerfile.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/elizaveta/Projects/Iturup/resources/views/admin.blade.php",
+    "javascript.nodejs.core.library.configured.version": "22.11.0",
+    "javascript.nodejs.core.library.typings.version": "22.15.33",
+    "last_opened_file_path": "/home/elizaveta/Projects/Iturup/database/migrations/2024_08_22_155016_create_reviews_table.php",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -183,6 +192,9 @@
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
     "vue.recent.templates": [
       "Vue Composition API Component"
     ]
@@ -197,11 +209,11 @@
       <recent name="$PROJECT_DIR$/docker" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/public" />
       <recent name="$PROJECT_DIR$/frontend/src/assets/fonts" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/docker" />
-      <recent name="$PROJECT_DIR$/docker/conf/nginx" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -305,7 +317,10 @@
       <workItem from="1750488814025" duration="3400000" />
       <workItem from="1750568782997" duration="2902000" />
       <workItem from="1750584632303" duration="2165000" />
-      <workItem from="1750664476391" duration="8176000" />
+      <workItem from="1750664476391" duration="9532000" />
+      <workItem from="1750723530754" duration="8828000" />
+      <workItem from="1750917315304" duration="4943000" />
+      <workItem from="1750925069199" duration="2424000" />
     </task>
     <servers />
   </component>

@@ -1,12 +1,26 @@
-import { defineConfig } from 'vite';
+import {defineConfig} from 'vite';
 import vue from '@vitejs/plugin-vue';
+import path from 'path';
 
 export default defineConfig({
-  plugins: [vue()],
-  server: {
-    proxy: {
-      '/backend': 'http://web', // Прокси для API запросов на Laravel
+    plugins: [vue()],
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname, './src/assets')
+        }
     },
-  },
+    build: {
+        rollupOptions: {
+            input: {
+                main: path.resolve(__dirname, 'index.html'),
+                book: path.resolve(__dirname, 'book.html')
+            }
+        }
+    },
+    server: {
+        proxy: {
+            '/backend': 'http://web', // Прокси для API запросов на Laravel
+        },
+    },
 });
 
