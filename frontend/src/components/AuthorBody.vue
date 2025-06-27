@@ -6,7 +6,7 @@
   <div class="author-body__container container">
     <div class="author-body__column">
       <div class="author-body__img">
-        <img src="../../public/authors/rowling.jpg" alt="">
+        <img src="/authors/rowling.jpg" alt="">
       </div>
     </div>
     <div class="author-body__column">
