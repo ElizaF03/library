@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1275a5f6-1f3d-4ac8-b179-af998e32f668" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/BooksByAuthor.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ItemByBook.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/author.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/author.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/Author.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Author.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/AuthorBody.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AuthorBody.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/BooksByAuthor" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/scss/item-by-book.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/scss/item-by-book.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/scss/item-by-book.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/book.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/BookBody.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/BookBody.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/BooksByAuthor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/BooksByAuthor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
     </list>
@@ -30,6 +34,7 @@
       <list>
         <option value="Dockerfile" />
         <option value="Vue Composition API Component" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -165,6 +170,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Docker.Dockerfile.executor": "Run",
     "Docker.docker/Dockerfile.executor": "Run",
     "Docker.docker/Dockerfile: Compose Deployment.executor": "Run",
@@ -315,6 +321,7 @@
       <workItem from="1750723530754" duration="8828000" />
       <workItem from="1750917315304" duration="4943000" />
       <workItem from="1750925069199" duration="11700000" />
+      <workItem from="1751067784740" duration="1225000" />
     </task>
     <servers />
   </component>

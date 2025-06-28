@@ -19,7 +19,7 @@
                   Гарри Поттер и Принц-полукровка
                 </div>
                 <div class="column-info__author">
-                  Дж. К. Роулинг
+                  <a href="/author"> Дж. К. Роулинг</a>
                 </div>
               </div>
               <div class="column-info__right">
@@ -129,9 +129,15 @@
     font-size: 32px;
     line-height: 110%;
   }
-  &__author{
-    color: #E2C112;
-    margin-top: 15px;
+  &__author{margin-top: 15px;
+    a{
+      color: #E2C112;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+
+
   }
   &__right{
     display: flex;

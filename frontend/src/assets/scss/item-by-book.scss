@@ -1,7 +1,7 @@
 .item-by-book {
   border: #1983AD 1px solid;
   position: relative;
-
+min-height: 200px;
   &__image {
     position: absolute;
     top: -40px;
@@ -46,6 +46,7 @@
       &__summary {
         font-family: Nunito, serif;
         font-size: 18px;
+        line-height: 130%;
         color: #062a46;
         display: -webkit-box;           /* Включает флекс-контейнер в старом синтаксисе WebKit */
         -webkit-line-clamp: 5;          /* Количество видимых строк */

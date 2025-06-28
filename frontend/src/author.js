@@ -4,8 +4,6 @@ import '@/scss/item-by-book.scss'
 import './style.css'
 
 
-
-
 import AuthorComponents from './Author.vue'
 
 const author=createApp(AuthorComponents)

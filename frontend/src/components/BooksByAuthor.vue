@@ -21,6 +21,7 @@ import ItemByBook from "./ItemByBook.vue";
   &__container{
     flex-direction: column;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
   &__list{
 display: flex;

@@ -8,13 +8,13 @@ import {ref} from 'vue'
       <div class="header__container container">
         <div class="header__column">
           <div class="header__logo">
-            <a href="#" class="logo"><img src="../assets/img/logoLibraryBlue%202.svg" alt=""></a>
+            <a href="/index" class="logo"><img src="../assets/img/logoLibraryBlue%202.svg" alt=""></a>
           </div>
         </div>
         <div class="header__column header__column_right">
           <ul class="header__navigate-list">
             <li class="navigate-header__item">
-              <a href="" class="navigate-header__link">
+              <a href="/index" class="navigate-header__link">
                 Главная
               </a></li>
             <li class="navigate-header__item">

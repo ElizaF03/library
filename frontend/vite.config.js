@@ -14,7 +14,8 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: path.resolve(__dirname, 'index.html'),
-                book: path.resolve(__dirname, 'book.html')
+                book: path.resolve(__dirname, 'book.html'),
+                author: path.resolve(__dirname, 'author.html'),
             }
         }
     },
